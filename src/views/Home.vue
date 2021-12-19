@@ -1,5 +1,7 @@
 <template>
+    
   <div class="home">
+    <p style="color: red;">Yo electron added</p>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
   </div>

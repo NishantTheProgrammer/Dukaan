@@ -67,7 +67,7 @@
     </div>
     <!-- /.header-top -->
     <!-- ============================================== TOP MENU : END ============================================== -->
-    <div class="main-header" style="padding: 0;">
+    <div class="main-header" style="padding: 0">
       <div class="container">
         <div class="row" style="display: flex; align-items: center">
           <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
@@ -246,10 +246,13 @@
                     <router-link tag="li" to="/">Home</router-link>
                   </li>
                   <li class="dropdown">
-                    <router-link to="/about">About</router-link>
+                    <router-link to="/categories">Categories</router-link>
                   </li>
                   <li class="dropdown">
                     <router-link to="/terms">Terms</router-link>
+                  </li>
+                  <li class="dropdown">
+                    <router-link to="/blogs">Blogs<span class="menu-label new-menu hidden-xs">new</span></router-link>
                   </li>
                   <li class="dropdown navbar-right special-menu">
                     <a href="#">Get 30% off on selected items</a>
@@ -272,3 +275,14 @@
     <!-- ============================================== NAVBAR : END ============================================== -->
   </header>
 </template>
+
+<style lang="scss">
+a {
+  font-weight: bold;
+  color: #2c3e50;
+
+  &.router-link-exact-active {
+    color: #fdda3d !important;
+  }
+}
+</style>

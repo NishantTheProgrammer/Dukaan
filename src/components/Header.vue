@@ -252,6 +252,9 @@
                     <router-link to="/terms">Terms</router-link>
                   </li>
                   <li class="dropdown">
+                    <router-link to="/checkout">Checkout</router-link>
+                  </li>
+                  <li class="dropdown">
                     <router-link to="/blogs">Blogs<span class="menu-label new-menu hidden-xs">new</span></router-link>
                   </li>
                   <li class="dropdown navbar-right special-menu">

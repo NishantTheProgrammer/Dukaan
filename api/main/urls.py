@@ -20,7 +20,7 @@ from django.conf import settings
 from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 
-from product.views import ProductViewSet
+from product.views import ProductViewSet, CategoryViewSet
 
 
 admin.site.site_header = "Dukaan"
@@ -29,6 +29,7 @@ admin.site.site_header = "Dukaan"
 
 
 router.register('api/product', ProductViewSet)
+router.register('api/category', CategoryViewSet)
 
 
 
